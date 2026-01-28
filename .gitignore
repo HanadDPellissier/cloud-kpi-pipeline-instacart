@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+_orders_check.csv
+*.log
+.DS_Store
