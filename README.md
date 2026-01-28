@@ -28,6 +28,7 @@ Scale:
 
 ## S3 Layout
 
+```text
 s3://cloud-kpi-instacart-hp/
 
 raw/
@@ -46,6 +47,7 @@ raw/
 └── departments/
     └── load_date=YYYY-MM-DD/
         └── departments.csv
+```
 
 ## Postgres Schemas
 - raw.*
