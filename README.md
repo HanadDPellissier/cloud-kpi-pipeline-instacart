@@ -27,14 +27,25 @@ Scale:
 - Operational observability tables
 
 ## S3 Layout
+
 s3://cloud-kpi-instacart-hp/
 
 raw/
-├── orders/load_date=YYYY-MM-DD/orders.csv
-├── order_products_prior/load_date=YYYY-MM-DD/order_products__prior.csv
-├── products/load_date=YYYY-MM-DD/products.csv
-├── aisles/load_date=YYYY-MM-DD/aisles.csv
-└── departments/load_date=YYYY-MM-DD/departments.csv
+├── orders/
+│   └── load_date=YYYY-MM-DD/
+│       └── orders.csv
+├── order_products_prior/
+│   └── load_date=YYYY-MM-DD/
+│       └── order_products__prior.csv
+├── products/
+│   └── load_date=YYYY-MM-DD/
+│       └── products.csv
+├── aisles/
+│   └── load_date=YYYY-MM-DD/
+│       └── aisles.csv
+└── departments/
+    └── load_date=YYYY-MM-DD/
+        └── departments.csv
 
 ## Postgres Schemas
 - raw.*
