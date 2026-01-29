@@ -61,9 +61,9 @@ raw/
 
 ## Raw Tables
 - `raw.orders`
-- `raw.order_products_prior`
-- `raw.products`
-- `raw.aisles`
+- `raw.oructs`
+- `raw.aisles`der_products_prior`
+- `raw.prod
 - `raw.departments`
 
 ## Staging Tables
