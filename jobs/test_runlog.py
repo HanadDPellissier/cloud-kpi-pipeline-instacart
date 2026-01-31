@@ -1,5 +1,5 @@
 import time
-from pipeline.run_log import start_run, finish_run
+from pipeline.common.run_log import start_run, finish_run
 
 t0 = time.monotonic()
 run_id = start_run(lookback_days=0)

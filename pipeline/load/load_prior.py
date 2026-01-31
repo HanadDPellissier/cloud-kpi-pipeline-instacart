@@ -1,8 +1,8 @@
 import boto3
 
 from config.settings import AWS_REGION, S3_BUCKET
-from pipeline.ddl import ensure_raw_order_products_prior_table
-from pipeline.db import get_conn
+from pipeline.common.ddl import ensure_raw_order_products_prior_table
+from pipeline.common.db import get_conn
 
 def load_prior_from_s3(s3_key: str) -> int:
     """

@@ -3,7 +3,7 @@ import uuid
 from datetime import datetime, timezone
 from typing import Optional
 
-from pipeline.db import get_conn
+from pipeline.common.db import get_conn
 from config.settings import PIPELINE_NAME
 
 def _utcnow():

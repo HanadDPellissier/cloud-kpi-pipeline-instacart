@@ -3,7 +3,7 @@ import tempfile
 import boto3
 
 from config.settings import AWS_REGION, S3_BUCKET
-from pipeline.db import get_conn
+from pipeline.common.db import get_conn
 
 def copy_csv_from_s3_to_table(
     s3_key: str,

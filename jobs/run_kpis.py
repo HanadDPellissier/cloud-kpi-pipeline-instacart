@@ -1,6 +1,6 @@
 import time
 
-from pipeline.run_log import start_run, finish_run
+from pipeline.common.run_log import start_run, finish_run
 from pipeline.sql.sql_runner import run_sql_file
 
 KPI_FILES = [

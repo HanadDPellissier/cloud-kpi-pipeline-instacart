@@ -1,7 +1,7 @@
 from decimal import Decimal
 from typing import Optional, Tuple, List
 
-from pipeline.db import get_conn
+from pipeline.common.db import get_conn
 
 PASS = "PASS"
 FAIL = "FAIL"

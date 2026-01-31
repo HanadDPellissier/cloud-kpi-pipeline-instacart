@@ -1,11 +1,11 @@
 import time
 
-from pipeline.run_log import start_run, finish_run
+from pipeline.common.run_log import start_run, finish_run
 from pipeline.load.load_prior import load_prior_from_s3
 from config.settings import RUN_DATE
 
 def main():
-    s3_key = f"raw/order_products_prior/load_date={RUN_DATE}/order_products__prior.csv"
+    s3_key = "raw/order_products_prior/load_date=2026-01-27/order_products__prior.csv"
 
     t0 = time.monotonic()
     run_id = start_run(lookback_days=0)

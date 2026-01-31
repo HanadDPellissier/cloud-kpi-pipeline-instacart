@@ -1,4 +1,4 @@
-from pipeline.db import get_conn
+from pipeline.common.db import get_conn
 
 def ensure_raw_orders_table():
     ddl = """

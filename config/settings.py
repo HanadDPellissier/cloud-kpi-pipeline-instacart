@@ -1,11 +1,11 @@
+import os
 from datetime import date
 
 # ===== Pipeline identity =====
 PIPELINE_NAME = "cloud_kpi_instacart_ingestion"
 
-# ===== Run date =====
-RUN_DATE = date.today().isoformat()
-
+# ===== Run date (env override) =====
+RUN_DATE = os.getenv("RUN_DATE") or date.today().isoformat()
 # ===== AWS / S3 =====
 AWS_REGION = "us-west-2"
 S3_BUCKET = "cloud-kpi-instacart-hp"

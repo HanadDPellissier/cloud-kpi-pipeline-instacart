@@ -1,5 +1,5 @@
 import time
-from pipeline.run_log import start_run, finish_run
+from pipeline.common.run_log import start_run, finish_run
 from pipeline.load.load_orders import load_orders_from_s3
 
 s3_key = "raw/orders/load_date=2026-01-27/orders.csv"
